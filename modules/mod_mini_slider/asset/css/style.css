@@ -1,0 +1,114 @@
+
+/*slider*/
+ul.bjqs-controls.v-centered li.bjqs-next a, ul.bjqs-controls.v-centered li.bjqs-prev a {
+    background: url(../../../../../img/common/sprite.png) no-repeat;
+}
+
+
+ul.bjqs {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: none;
+}
+
+li.bjqs-slide {
+    position: absolute;
+    display: none;
+}
+
+ul.bjqs-controls {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 9999;
+}
+
+ul.bjqs-controls.v-centered li a {
+    position: absolute;
+}
+
+ul.bjqs-controls.v-centered li.bjqs-next a {
+    right: 0;
+    background-position: 5px -256px;
+}
+
+ul.bjqs-controls.v-centered li.bjqs-prev a {
+    left: 0;
+    background-position: 2px -288px;
+}
+
+ol.bjqs-markers {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+
+ol.bjqs-markers.h-centered {
+    text-align: right;
+    position: relative;
+    top: -36px;
+    right: inherit !important;
+    padding-right: 80px !important;
+}
+
+ol.bjqs-markers li {
+    display: inline;
+}
+
+ol.bjqs-markers li a {
+    display: inline-block;
+}
+
+p.bjqs-caption {
+    display: none;
+    width: 96%;
+    margin: 0;
+    padding: 2%;
+    position: absolute;
+    bottom: 0;
+}
+
+#banner-fade,
+#banner-slide {
+    margin-bottom: 10px;
+}
+
+ul.bjqs-controls.v-centered li a {
+    display: block;
+    padding: 5px;
+    background: #fff;
+    color: #ff7f27;
+    text-decoration: none;
+    text-indent: -999;
+    width: 40px;
+    height: 30px;
+}
+
+ul.bjqs-controls.v-centered li a:hover {
+    color: #fff;
+}
+
+ol.bjqs-markers li a {
+    padding: 8px 8px;
+    background: #70ceff;
+    color: #70ceff;
+    margin: 4px;
+    font-size: 2px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+ol.bjqs-markers li.active-marker a,
+ol.bjqs-markers li a:hover {
+    background: #fff;
+    color: #fff;
+}
+
+p.bjqs-caption {
+    background: rgba(255, 255, 255, 0.5);
+}

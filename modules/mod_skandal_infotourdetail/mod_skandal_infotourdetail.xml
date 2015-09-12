@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>mod_skandal_infotourdetail</name>
+    <author>Son nguyen</author>
+    <version>1.0.0</version>
+    <description>A simple module.</description>
+    <files>
+        <filename>mod_skandal_infotourdetail.xml</filename>
+        <filename module="mod_skandal_infotourdetail">mod_skandal_infotourdetail.php</filename>
+        <filename>index.html</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+    </config>
+</extension>

@@ -1,0 +1,17 @@
+/*style file skandal_desc*/
+.wrapper{
+    background:#CCCCCC;
+    margin-top:-65px;
+}
+.my_skandal_desc .container .customized-holidays {
+    border-right: #CCCCCC 1px solid;
+    margin: 20px 0;
+}
+.my_skandal_desc .container .customized-holidays.last { border-right: none}
+.my_skandal_desc .container .customized-holidays h5{
+   font-weight: bold;
+    color:#333333;
+    font-size:17px;
+}
+
+/*End style file skandal_desc*/

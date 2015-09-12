@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset>
+        <field
+                id="id"
+                name="id"
+                type="text"
+                default="0"
+                readonly="true"
+                class="readonly"
+                label="COM_TOUR_VIEW_IMAGESLIDER_FILED_ID"
+                description ="COM_TOUR_VIEW_IMAGESLIDER_DESC_FILED_ID" />
+        <field
+                id="path"
+                name="path"
+                type="media"
+                required="true"
+                label="COM_TOUR_VIEW_IMAGESLIDER_FILED_PATH"
+                description ="COM_TOUR_VIEW_IMAGESLIDER_DESC_FILED_PATH" />
+
+
+        <field
+                id="title"
+                name="title"
+                type="text"
+                 label="COM_TOUR_VIEW_IMAGESLIDER_FILED_TITLE"
+                description ="COM_TOUR_VIEW_IMAGESLIDER_DESC_FILED_TITLE" />
+        <field
+                id="price"
+                name="price"
+                type="text"
+                 label="COM_TOUR_VIEW_IMAGESLIDER_FILED_PRICE"
+                description ="COM_TOUR_VIEW_IMAGESLIDER_DESC_FILED_PRICE" />
+        <field
+                id="link_detail"
+                name="link_detail"
+                type="text"
+                 label="COM_TOUR_VIEW_IMAGESLIDER_FILED_LINKDETAIL"
+                description ="COM_TOUR_VIEW_IMAGESLIDER_DESC_FILED_LINKDETAIL" />
+
+        <field
+                id="type_slider"
+                name="type_slider"
+                type="list"
+                label="COM_TOUR_VIEW_IMAGESLIDER_FILED_TYPESLIDER"
+                description="COM_TOUR_VIEW_IMAGESLIDER_DESC_FILED_TYPESLIDER"
+                size="1"
+                default="1">
+            <option value="Slider_bottom">Slider bottom</option>
+            <option value="Slider_city">Slider city</option>
+
+        </field>
+
+    </fieldset>
+
+
+
+</form>

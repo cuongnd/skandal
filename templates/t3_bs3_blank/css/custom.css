@@ -1,0 +1,200 @@
+.navbar{
+    border:none;
+}
+
+    /*file mainnav.php*/
+.style-file-mainnav{
+    background: #006699;
+}
+.my_container{
+    margin: 0 20px;
+}
+.my_container .col-md-8 ul li a{
+    color:white;
+    font-weight: bold;
+    font-family:Montserrat,Helvetica Neue, Helvetica, Arial,sans-serif;
+    font-size:15px;
+    text-transform: uppercase;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.my_container .col-md-8 ul li a:hover{
+    color:#18BC9C;
+}
+
+.login-register{
+    float:right;
+}
+
+.t3-module{
+    margin:0px;
+}
+/*module register*/
+.custom{
+    padding-top:8px;
+}
+.custom p{
+    float:right;
+    text-transform: uppercase;
+    color:white;
+    font-size:10px;
+    font-weight: bold;
+}
+.custom a{
+    color:white;
+    font-size:13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left:10px;
+}
+/*End module register*/
+/*End file mainnav.php*/
+
+
+/*Style file topbody.php*/
+.t3-wrapper .topbody_style{
+    margin-left: -5px; padding: 0;
+    height: 150px;
+    /*border:1px solid black;*/
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(enabled='true', GradientType=0, startColorstr=#FFFFFF, endColorstr=#d2d6da);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled='true', GradientType=0, startColorstr=#ebf1f4, endColorstr=#FFFFFF)";
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d2d6da), to(#d2d6da));
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top,#FFFFFF,#d2d6da);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top,#FFFFFF,#d2d6da);
+    /* IE 10 */
+    background: -ms-linear-gradient(top,#FFFFFF,#d2d6da);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top,#FFFFFF,#d2d6da);
+}
+
+.t3-wrapper .topbody_style .header-content{
+    margin-left: 40px;
+}
+
+.t3-wrapper .topbody_style .header-content h3{
+    margin-top: 45px;
+}
+.t3-wrapper .topbody_style .header-content h3 span{
+    color: #333399;
+}
+.t3-wrapper .topbody_style .header-content ul{
+    margin-top: 10px !important;
+}
+.t3-wrapper .topbody_style .header-content ul li{
+    float: left;
+    border-right: 1px #20a93a solid;
+}
+.t3-wrapper .topbody_style .header-content ul li a{
+    color: #20a93a !important;
+    padding-top: 0;
+}
+
+    /*module my_search*/
+        .mod_my_search{
+            float:left;
+        }
+        .mod_my_search ul{
+            margin: 0; padding: 20px 0;
+        }
+        .mod_my_search ul li a{
+          list-style: none;
+        }
+    /*End module my_search*/
+
+    /*module skandal logo*/
+        #mod_skandal_logo img{
+            float: right;
+            padding-top: 25px;
+            width: 245px;
+        }
+    /*End module skandal logo*/
+/*End Style file topbody.php*/
+
+
+/*style file mainbody_listtour*/
+.mainbody_listtour{
+padding-left:35px;
+}
+.mainbody_listtour .top-tour-info{
+    border: 1px solid #cccccc;
+
+    background: #f9f9f9
+}
+.mainbody_listtour .domtab .img{
+    padding:0;
+    margin:-5px -8px;
+}
+.mainbody_listtour .domtab ul.domtabs{
+    float: left;
+    width:280px; position: absolute !important; top: 175px; left:150px;
+}
+.mainbody_listtour .domtab ul.domtabs li{
+    float: left;
+    text-align: center;
+}
+.mainbody_listtour .domtab ul.domtabs li:first-child{
+    background:#FA5E5B;
+}
+.mainbody_listtour .domtab ul.domtabs li:last-child{
+    background:gray;
+    margin-left:3px;
+}
+.mainbody_listtour .domtab ul.domtabs li a{
+    float:left;
+    color:#FFFFFF !important;
+    font-size: 12px;
+    font-weight: bold;
+    padding:0 3px;
+}
+
+.mainbody_listtour .top-tour-info .info-right{
+
+}
+.mainbody_listtour ul li{
+    list-style: none;
+}
+/*End style file mainbody_listtour*/
+
+
+/*style file home_findtrip*/
+.mod_pagehome_search{
+
+}
+.mod_pagehome_search .mod_pagehome_search_left {
+    z-index: 13 !important;
+    margin-top: -70px;
+
+}
+.mod_pagehome_search .mod_pagehome_search_left img{
+width:303px;
+    height:172px;
+    float:left;
+
+ }
+.mod_pagehome_search .mod_pagehome_search_right{
+padding-top:10px;
+
+ }
+/*End style file home_findtrip*/
+
+/*style file skandal_list_country_holiday*/
+    .big-wrapper{
+    background:#CCCCCC;
+        padding-top:20px;
+}
+.big-wrapper .mod_skandal_list_country_holiday{
+    background:#FFF;
+}
+.mod_skandal_list_country_holiday .title{
+    color:#6D1B1F;
+    font-weight: bold;
+}
+
+/*End style file skandal_list_country_holiday*/
+
+/* headerbox top */

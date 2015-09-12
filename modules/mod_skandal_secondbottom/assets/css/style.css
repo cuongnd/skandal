@@ -1,0 +1,52 @@
+
+
+.bottomIcon {
+    background: #ffffff;
+    margin-top: 70px;
+    width: 100%;
+    height: 100px;
+}
+
+.bottomIcon img {
+    position: absolute;
+    left: 140px;
+    top: -30px
+}
+
+.bottomIcon h5 {
+    color: #006699;
+    font-size: 13px;
+    line-height: 0;
+    text-align: center
+}
+
+.bottomIcon p {
+    text-align: justify;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.bottomIcon .topIcon {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.borderline2px {
+    background: url(img/common/borderline.png) 0 10px no-repeat;
+}
+.borderline1px {
+    background: url(img/common/line1px.png) 0 10px no-repeat;
+}
+
+
+
+@media (max-width: 650px) {
+
+    .col-md-6, .col-md-3 {
+        width: inherit !important;
+        float: none !important;
+    }
+
+}

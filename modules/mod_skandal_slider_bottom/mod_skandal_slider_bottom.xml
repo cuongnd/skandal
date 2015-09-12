@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>mod_skandal_slider_bottom</name>
+    <author>Son nguyen</author>
+    <version>1.0.0</version>
+    <description>A simple Hello, World! module.</description>
+    <files>
+        <filename>mod_skandal_slider_bottom.xml</filename>
+        <filename module="mod_skandal_slider_bottom">mod_skandal_slider_bottom.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                        name="title_slider_botttom"
+                        type="text"
+                        default=""
+                        label="MOD_SKANDAL_SLIDERBOTTOM_LABEL_TITLE"
+                        description="MOD_SKANDAL_SLIDERBOTTOM_DESC_LABEL_TITLE">
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

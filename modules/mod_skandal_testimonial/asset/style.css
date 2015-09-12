@@ -1,0 +1,23 @@
+.tbltestimonials {
+    height: 370px;
+    width: 101%;
+    margin-left:4px;
+    background: #f2f2f2
+}
+
+.tbltestimonials > .testimonials {
+    padding-left: 10px;
+    padding-right: 5px
+}
+
+.tbltestimonials > .testimonials ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.borderline2px {
+    background: url(img/common/borderline.png) 0 10px no-repeat;
+}
+.borderline1px {
+    background: url(img/common/line1px.png) 0 10px no-repeat;
+}

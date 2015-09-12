@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<metadata>
+    <layout title="COM_TOUR_VIEW_DEFAULT" option="com_tour_default_view_default_option">
+        <help
+                key="JHELP_MENUS_MENU_ITEM_TAGS_ITEMS_LIST"
+                />
+        <message>
+            <![CDATA[com_tags_tag_view_default_desc]]>
+        </message>
+    </layout>
+
+
+	<!-- Add fields to the parameters object for the layout. -->
+<fields name="params">
+	<fieldset name="advanced" label="JGLOBAL_LIST_com_tourLAYOUT_OPTIONS">
+		<field name="show_fax_headings"
+			type="list"
+			label="COM_CONTACT_FIELD_CONFIG_FAX_LABEL"
+			description="COM_CONTACT_FIELD_CONFIG_FAX_DESC"
+		>
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option value="0">JHIDE</option>
+			<option value="1">JSHOW</option>
+		</field>
+
+		<field name="show_suburb_headings" type="list"
+			label="COM_CONTACT_FIELD_CONFIG_SUBURB_LABEL"
+			description="COM_CONTACT_FIELD_CONFIG_SUBURB_DESC"
+		>
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option value="0">JHIDE</option>
+			<option value="1">JSHOW</option>
+		</field>
+
+
+
+
+
+	</fieldset>
+
+
+
+</fields>
+</metadata>

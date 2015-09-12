@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<metadata>
+    <layout title="COM_TOUR_VIEW_TOURDETAIL" option="">
+        <help
+                key="COM_TOUR_VIEW_TOURDETAIL"
+                />
+        <message>
+            <![CDATA[COM_TOUR_VIEW_TOURDETAIL]]>
+        </message>
+    </layout>
+
+
+</metadata>

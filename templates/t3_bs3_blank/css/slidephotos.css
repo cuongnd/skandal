@@ -1,0 +1,247 @@
+
+#main {
+	width:910px;
+	margin:0;
+    padding: 0;
+}
+
+#images {
+	display:none;	
+}
+
+.panel {
+	float:right;
+    margin-top: -5px;
+
+}
+
+ul.exposureThumbs {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+
+ul.exposureThumbs li {
+	margin:0 0 8px 0;
+	padding:0;
+	text-align:center;
+	display:none;
+}
+
+ul.exposureThumbs li img {
+	cursor:pointer;
+    width: 170px;
+    height: 78px;
+}
+
+ul.exposureThumbs li.last {
+	margin:0;	
+}
+
+.exposureTarget {
+	float:left;	
+	padding:0;
+	margin:0;
+	/* position:relative;*/
+	overflow:hidden; 
+}
+
+.exposureWrapper {
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.exposureWrapper img {
+	cursor:pointer;
+	position:absolute;
+	top:5px;
+	left:5px;
+    width: 730px !important;
+    height: 380px !important;
+}
+
+.exposureLoaded {
+	background-image:none;
+}
+
+.exposureData {
+	position:absolute;
+ 	left:5px;
+ 	right:223px;
+ 	bottom:22px;
+	height:35px;
+	/*padding:7px;*/
+	background-image:url(../img/res/veil.png);
+	color:#fff;
+	font-family:Arial,Verdana,Helvetica,sans-serif;
+	font-size:16px;
+	font-weight:bold;
+    }
+
+.exposureData .caption {
+    padding: 10px 10px;
+}
+/* In this demo we are using thumbs with fixed size */
+ul.exposureThumbs li {
+	width:170px;
+	height:80px;
+    border: none;
+}
+
+.exposureSlideshowControls a,
+.exposureControls span,
+.exposureControls a {
+	font-family:Arial,Verdana,Helvetica,sans-serif;
+	font-size:12px;
+	padding:13px 13px 13px 14px ;
+	background-color:#555;
+	display:block;
+	float:left;
+    margin-top: 7px;
+}
+
+.exposureSlideshowControls a {
+	float:right;
+}
+
+.exposureSlideshowControls a,
+.exposureControls a {
+	color:#ccc;
+	text-decoration:none;
+	outline:none;
+ }
+
+.exposureSlideshowControls a:active,
+.exposureSlideshowControls a:hover,
+.exposureControls a:active,
+.exposureControls a:hover {
+	background-color:#444;
+	color:#ddd;
+}
+
+a.exposureNextPage {
+    color: #006699;
+}
+
+
+/* In this demo we are using in tour details*/
+#main1 {
+    width:800px;
+    margin:0;
+    padding: 0;
+}
+
+
+.panel1 {
+    float:right;
+    margin-top: -5px;
+    margin-right:13px;
+
+}
+
+ul.exposureThumbs1 {
+    padding:0;
+    margin:0;
+    list-style-type:none;
+}
+
+ul.exposureThumbs1 li {
+    margin:0 0 8px 0;
+    padding:0;
+    text-align:center;
+    display:none;
+}
+
+ul.exposureThumbs1 li img {
+    cursor:pointer;
+    width: 165px;
+    height: 78px;
+}
+
+ul.exposureThumbs1 li.last {
+    margin:0;
+}
+
+.exposureTarget1 {
+    float:left;
+    padding:0;
+    margin:0;
+    overflow:hidden;
+}
+
+
+.exposureWrapper1 {
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.exposureWrapper1 img {
+    cursor:pointer;
+    position:absolute;
+    top:5px;
+    left:5px;
+    width: 615px !important;
+    height: 380px !important;
+}
+
+.exposureLoaded1 {
+    background-image:none;
+}
+.exposureData1 {
+    position:absolute;
+    left:5px;
+    right:198px;
+    bottom:5px;
+    height:35px;
+    /*padding:7px;*/
+    background-image:url(../img/res/veil.png);
+    color:#fff;
+    font-family:Arial,Verdana,Helvetica,sans-serif;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.exposureData1 .caption1 {
+    padding: 10px 10px;
+}
+
+/* control trong tour details */
+ul.exposureThumbs1 li {
+    width:168px;
+    height:80px;
+    border: none;
+}
+
+.exposureSlideshowControls1 a,
+.exposureControls1 span,
+.exposureControls1 a {
+    font-family:Arial,Verdana,Helvetica,sans-serif;
+    font-size:12px;
+    padding:13px 13px 13px 13px ;
+    background-color:#555;
+    display:block;
+    float:left;
+    margin-top: 7px;
+}
+
+.exposureSlideshowControls1 a {
+    float:right;
+}
+
+.exposureSlideshowControls1 a,
+.exposureControls1 a {
+    color:#ccc;
+    text-decoration:none;
+    outline:none;
+}
+
+.exposureSlideshowControls1 a:active,
+.exposureSlideshowControls1 a:hover,
+.exposureControls1 a:active,
+.exposureControls1 a:hover {
+    background-color:#444;
+    color:#ddd;
+}
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+<name>mod_skandal_support</name>
+<author>Joomla! Project</author>
+<creationDate>July 2006</creationDate>
+<copyright>Copyright (C) 2005 - 2015 Open Source Matters. All rights reserved.</copyright>
+<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+<authorEmail>admin@joomla.org</authorEmail>
+<authorUrl>www.joomla.org</authorUrl>
+<version>3.0.0</version>
+<description>MOD_SKANDAL_REQUEST_XML_DESCRIPTION</description>
+<files>
+	<filename module="mod_skandal_request">mod_skandal_request.php</filename>
+	<folder>tmpl</folder>
+	<folder>assets</folder>
+	<filename>mod_skandal_request.xml</filename>
+</files>
+<languages>
+	<language tag="en-GB">en-GB.mod_skandal_request.ini</language>
+	<language tag="en-GB">en-GB.mod_skandal_request.sys.ini</language>
+</languages>
+<help key="JHELP_EXTENSIONS_MODULE_MANAGER_SKANDAL_REQUEST" />
+<config>
+	<fields name="params">
+		<fieldset name="basic">
+			<field
+					name="title"
+					type="textarea"
+					cols="30"
+					rows="3"
+					label="MOD_SKANDAL_REQUEST_FIELD_TITLE_LABEL"
+					description="MOD_SKANDAL_REQUEST_FIELD_TITLE_DESC" />
+			<field
+					name="description"
+					type="textarea"
+					cols="30"
+					rows="4"
+					label="MOD_SKANDAL_REQUEST_FIELD_DESCRIPTION_LABEL"
+					description="MOD_SKANDAL_REQUEST_FIELD_DESCRIPTION_DESC" />
+
+		</fieldset>
+	</fields>
+</config>
+</extension>

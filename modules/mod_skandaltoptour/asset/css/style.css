@@ -1,0 +1,17 @@
+ul.title{
+    border: 1px solid #cccccc;
+    margin:0 25px 20px 0;
+    padding: 0;
+    background: #cccccc;
+    height: 35px;
+}
+ul.title li{
+    background:url(../../../../img/common/bg_124x51.png) 0 -6px no-repeat;
+    height: 51px;
+    width:300px;
+}
+ul.title li h5{
+    color: #FFFFFF;
+    margin: 0;
+    padding: 7px 15px;
+}

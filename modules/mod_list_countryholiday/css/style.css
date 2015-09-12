@@ -1,0 +1,39 @@
+
+.top-dest img {
+    width: 102%;
+}
+
+.top-dest .row {
+    margin-bottom: 18px !important;
+}
+
+.top-dest_title, .top-dest_title:hover {
+    display: block;
+    width: 102%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: 'OpenSansLight', sans-serif;
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    margin-top: -24px;
+    background-position: 122% -252px;
+    text-decoration: none;
+}
+
+.top-dest_title1, .top-dest_title1:hover {
+    display: block;
+    width: 100%;
+    text-align: right;
+    font-family: 'OpenSansLight', sans-serif;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    margin-top: -25px;
+    text-decoration: none;
+}
+
